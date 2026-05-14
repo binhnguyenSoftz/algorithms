@@ -8,8 +8,8 @@ import { CommonModule } from '@angular/common';
   template: `
     <div class="theory-container">
       <header class="theory-header">
-        <h1>📖 Lý Thuyết Giải Thuật</h1>
-        <p>Phân tích QuickSelect tìm phần tử giữa dãy</p>
+        <h1>Lý Thuyết Giải Thuật</h1>
+        <p>Phân tích thuật toán QuickSelect (Hoare's Selection Algorithm)</p>
       </header>
 
       <div class="theory-content">

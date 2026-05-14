@@ -10,7 +10,7 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
     <nav class="navbar">
       <div class="nav-content">
         <div class="logo" routerLink="/">
-          <span class="symbol">∑</span>
+          <span class="symbol">Σ</span>
           <span class="text">AlgoDemo</span>
         </div>
         <div class="nav-links">
@@ -26,8 +26,8 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 
     <footer class="footer">
       <div class="footer-content">
-        <p>COS705 · Phân tích Thiết kế Giải thuật Nâng cao · 2024–2025</p>
-        <p class="members">Nhóm: Nguyễn Thái Bình · Huỳnh Sang · Vũ Thị Cẩm Tú</p>
+        <p>Phân tích Thiết kế Giải thuật Nâng cao (COS705) - Học kỳ 2024–2025</p>
+        <p class="members">Nhóm thực hiện: Nguyễn Thái Bình · Huỳnh Sang · Vũ Thị Cẩm Tú</p>
       </div>
     </footer>
   `,

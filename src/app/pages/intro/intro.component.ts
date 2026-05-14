@@ -11,23 +11,23 @@ import { MemberCardComponent } from '../../components/member-card/member-card.co
     <div class="intro-container">
       <!-- HERO SECTION -->
       <section class="hero">
-        <div class="badge">🎓 Báo Cáo Bài Tập Nhóm</div>
+        <div class="badge">Báo Cáo Bài Tập Nhóm</div>
         <h1>Phần Tử Giữa Dãy</h1>
-        <p class="subtitle">Giải thuật Chia để Trị · Divide & Conquer</p>
+        <p class="subtitle">Giải thuật Chia để Trị (Divide & Conquer)</p>
         <div class="divider"></div>
         
         <div class="course-card">
-          <p>📚 <strong>Môn học:</strong> Phân tích Thiết kế Giải thuật Nâng cao</p>
-          <p>🔖 <strong>Mã HP:</strong> COS705</p>
-          <p>🏫 <strong>Chương trình:</strong> Cao học Khoa học Máy tính</p>
+          <p><strong>Môn học:</strong> Phân tích Thiết kế Giải thuật Nâng cao</p>
+          <p><strong>Mã HP:</strong> COS705</p>
+          <p><strong>Chương trình:</strong> Cao học Khoa học Máy tính</p>
         </div>
         
-        <button class="btn btn-primary" routerLink="/demo">🚀 Xem Demo Giải Thuật</button>
+        <button class="btn btn-primary" routerLink="/demo">Bắt đầu Demo Giải Thuật</button>
       </section>
 
       <!-- MEMBERS SECTION -->
       <section class="members">
-        <h2 class="section-title">👥 Thành Viên Nhóm</h2>
+        <h2 class="section-title">Thành Viên Nhóm</h2>
         <div class="members-grid">
           <app-member-card 
             name="Nguyễn Thái Bình" msv="CH259456" initials="NTB" 
@@ -46,9 +46,9 @@ import { MemberCardComponent } from '../../components/member-card/member-card.co
 
       <!-- PROBLEM SECTION -->
       <section class="problem">
-        <h2 class="section-title">📋 Đề Bài</h2>
+        <h2 class="section-title">Nội Dung Đề Bài</h2>
         <div class="blockquote">
-          <p><strong>Định nghĩa:</strong> Phần tử giữa của một dãy số là phần tử có vị trí ⌊n/2⌋ trong dãy đã sắp xếp.</p>
+          <p><strong>Định nghĩa:</strong> Phần tử giữa của một dãy số là phần tử có vị trí ⌊n/2⌋ trong dãy đã sắp xếp (0-indexed).</p>
           <p><strong>Ví dụ:</strong> Cho dãy 2, 5, 1, 10, 6, 8, 9, 7, 3, 13, 15. Kết quả phần tử giữa là 7.</p>
           <p><strong>Yêu cầu:</strong> Đề xuất giải thuật Chia để Trị để tìm phần tử này mà không cần sắp xếp toàn bộ dãy.</p>
         </div>
@@ -57,14 +57,12 @@ import { MemberCardComponent } from '../../components/member-card/member-card.co
       <!-- NAV CARDS -->
       <section class="nav-cards">
         <div class="nav-card" routerLink="/demo">
-          <span class="icon">🔬</span>
-          <h3>Demo Giải Thuật</h3>
-          <p>Xem từng bước QuickSelect trực quan</p>
+          <h3>Trực quan hóa</h3>
+          <p>Xem từng bước QuickSelect thực hiện trên dãy số</p>
         </div>
         <div class="nav-card" routerLink="/theory">
-          <span class="icon">📖</span>
-          <h3>Lý Thuyết</h3>
-          <p>Phân tích độ phức tạp & chứng minh</p>
+          <h3>Cơ sở lý thuyết</h3>
+          <p>Phân tích chi tiết độ phức tạp và thuật toán</p>
         </div>
       </section>
     </div>

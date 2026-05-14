@@ -12,8 +12,8 @@ import { ArrayVisualizerComponent } from '../../components/array-visualizer/arra
   template: `
     <div class="demo-container">
       <header class="page-header">
-        <h1>🔬 Demo Giải Thuật QuickSelect</h1>
-        <p>Tìm phần tử giữa dãy bằng phương pháp Chia để Trị</p>
+        <h1>Mô phỏng Giải thuật QuickSelect</h1>
+        <p>Tìm kiếm phần tử trung vị bằng phương pháp Chia để Trị</p>
       </header>
 
       <div class="main-layout">
@@ -21,14 +21,14 @@ import { ArrayVisualizerComponent } from '../../components/array-visualizer/arra
         <aside class="control-panel card">
           <section class="input-section">
             <label>Nhập dãy số (cách nhau bởi dấu phẩy):</label>
-            <textarea [(ngModel)]="rawInput" placeholder="2, 5, 1, 10, 6, 8, 9, 7, 3, 13, 15"></textarea>
+            <textarea [(ngModel)]="rawInput" placeholder="Nhập các số cách nhau bởi dấu phẩy..."></textarea>
             
             <div class="input-actions">
-              <button class="btn btn-outline" (click)="useExample()">📋 Ví dụ mẫu</button>
-              <button class="btn btn-outline" (click)="generateRandom()">🎲 Ngẫu nhiên</button>
+              <button class="btn btn-outline" (click)="useExample()">Dùng ví dụ mẫu</button>
+              <button class="btn btn-outline" (click)="generateRandom()">Dãy ngẫu nhiên</button>
             </div>
             
-            <button class="btn btn-primary start-btn" (click)="startDemo()">▶ Bắt đầu Demo</button>
+            <button class="btn btn-primary start-btn" (click)="startDemo()">Chạy mô phỏng</button>
           </section>
 
           <section class="playback-controls" *ngIf="steps().length > 0">
@@ -84,9 +84,9 @@ import { ArrayVisualizerComponent } from '../../components/array-visualizer/arra
           </div>
 
           <div class="result-card card" *ngIf="currentStep()?.isFound">
-            <div class="celebration">🎉 TÌM THẤY KẾT QUẢ!</div>
+            <div class="celebration">ĐÃ TÌM THẤY KẾT QUẢ</div>
             <div class="found-value">{{ currentStep()?.foundValue }}</div>
-            <p>Phần tử giữa dãy là {{ currentStep()?.foundValue }}</p>
+            <p>Phần tử giữa dãy được xác định là: {{ currentStep()?.foundValue }}</p>
           </div>
         </main>
       </div>
