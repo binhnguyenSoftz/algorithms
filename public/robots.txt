@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://algorithms.binh-nguyen-67f.workers.dev/sitemap.xml
